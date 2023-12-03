@@ -10,7 +10,6 @@ module day1p1(
 /*
 Interface assumptions:
 When din_rdy is "ready", din is also valid without needing to pulse din_re.
-Assuming right now din_rdy is always true.
 Every clock cycle that we have din_re high, when there is data, it will read.
 When din_re is high and din_rdy is not ready, it is "fine". The din will just not be valid until din_rdy is high.
 */
